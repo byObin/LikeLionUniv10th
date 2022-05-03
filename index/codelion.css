@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+
+* {
+    font-family: 'PT Serif', serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    color: #6b6b6b;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    float: right;
+    margin: 5px;
+    margin-top: 1px;
+    margin-right: 1px;
+}
+
+body,h1,h2 {
+    margin:0px;
+    padding:0px;
+}
+
+
+body {
+    min-width: fit-content;
+}
+
+h1 {
+    font-size:36px;
+    font-weight :600;
+    color: #007ea7;
+}
+
+
+h2 {
+    font-size:20px;
+    color:#282828;
+    font-weight: lighter;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background-color: #00324933;
+}
+
+.name-text {
+    font-size:16px;
+    color:#7c7c7c;
+    font-weight: bold;
+}
+
+.name-text-small {
+    font-size:12px;
+    color:#7c7c7c;
+    font-weight: bold;
+}
+
+.about-me-text {
+    font-size:13px;
+    line-height: 16px;margin-left: 10px;
+}
+
+.mainbox {
+    width: 610px;
+    padding: 30px;
+    margin: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 5px solid #80ced7;
+    box-shadow: 0 1px 20px 5 rgba(0, 0, 0, 0.1);
+    
+}
+
+.title-box {
+    text-align: right;
+}
+
+section {
+    margin-bottom:24px;
+}
+
+.float-wrap {
+    overflow: hidden;
+}
+
+.title-text {
+    font-size:16px;
+    font-weight: bold;
+    color: #282828;
+    float: left;
+margin-left: 10px;background-color: #eff6e0;}
+
+.year-text{
+    font-size:15px;
+    font-weight: bold;
+    color: #282828;
+    float: right;
+}
+
+.desc-text {
+    font-size: 15px;
+margin-left: 36px;/* PADDING-TOP: 1px; */}
+
+.desc-subtext {
+    font-size: 15px;
+    color:#282828;
+    padding-left:16px;
+}
+
+.sns-img {
+    width:15px;
+    height:15px;
+}
+
+.sns-wrap {
+    text-align:right;
+    
+}
+
+footer {
+    text-align: center;
+    background-color: #00324952;
+    padding: 20px;
+    font-size: 12px;
+    color: #000000;
+}
